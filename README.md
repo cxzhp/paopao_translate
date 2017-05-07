@@ -103,11 +103,8 @@ $$σ_f$$是第一张图像的图片片断中灰度值的标准差。$$σ_g(m,n)$
 # 6.引用
 
 1. Russ, John C. Computer-assisted Microscopy; the Measurement and Analysis of Images, Chap 11, Plenum Press, New York, 1990
-
-2.Vishvjit S. Naiwa, A Guided Tour ofComputer Vision, Chap 11, Addison-Wesley, Reading, Mass., 1993
-
-3.Takeo Kanade, "A stereo matching algorithm with an adaptive window: theory and experiment", Proc. of the 1991 IEEE International Conference on Robotics and Automation
-
+2. 2.Vishvjit S. Naiwa, A Guided Tour ofComputer Vision, Chap 11, Addison-Wesley, Reading, Mass., 1993
+3. 3.Takeo Kanade, "A stereo matching algorithm with an adaptive window: theory and experiment", Proc. of the 1991 IEEE International Conference on Robotics and Automation
 4. Ju-Hyeon Lee, "Metrology of microelecironic devices by stereo SEM", J. of Computer-Assisted Microscopy, Vol. 1 No. 1, 1989
 
 5. K. A. Thompson, "Surface characterization by use of automated stereo analysis and fractals", Microbeam Analysis 1987, San Francisco Press
@@ -125,4 +122,35 @@ $$σ_f$$是第一张图像的图片片断中灰度值的标准差。$$σ_g(m,n)$
 11. K. Ikeuchi, etc. "Numerical Shape from Shading and Occluding Boundaries, Artificial Intelligence", Vol. 17, pp. 141-184, 1981
 
 12. J. J. Koenderink, and A. J. van Doom, "Photometric Invariants Related to Solid Shape", Optical Acta, VoL 27, No. 7, pp. 981-996, 1980
+
+
+
+---
+
+**【翻译版权声明】泡泡机器人SLAM的所有文章全部由泡泡机器人的成员花费大量心血制作而成的原创内容，希望大家珍惜我们的劳动成果，转载请务必注明出自【泡泡机器人SLAM】微信公众号，否则侵权必究！同时，我们也欢迎各位转载到自己的朋友圈，让更多的人能进入到SLAM这个领域中，让我们共同为推进中国的SLAM事业而努力！**
+
+---
+
+* 译者： 周平
+* 审稿： 
+* 泡泡机器人翻译负责人： 蔡育新，刘富强
+* 以及感谢【泡泡机器人SLAM】社区热心的大牛，达人同学和老师们
+
+---
+
+如果错别字，翻译流畅性问题，或者译者概念搞错，有误导之嫌，或者概念不清晰等，请麻烦告知译者，或写在译文批注里面，译者学识有限，初次翻译和学习，请赐教～～
+
+Ce n'est pas parce que les choses sont difficiles que nous n'osons pas, mais parce que nous n'osons pas qu'elles sont difficiles （Sénèque）
+
+不是因為事情困難，而讓我們不敢做；是因為我們不敢做，事情才變得困難。 （塞內卡）
+
+---
+
+[![](https://stormtiti.gitbooks.io/lsd-slam/content/assets/cca_nc_nd_3.0.png)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
+
+This work is licensed under a[Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License](https://creativecommons.org/licenses/by-nc-nd/3.0/).
+
+全篇仅提供学习，请勿用于商业用途，翻译版权【泡泡机器人】 all right reserved，powered by Gitbook
+
+修订时间： 2017-05-07
 
