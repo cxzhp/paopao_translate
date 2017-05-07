@@ -90,7 +90,7 @@ $$σ_f$$是第一张图像的图片片断中灰度值的标准差。$$σ_g(m,n)$
 
 由于电子显微镜下大多数的断裂图有丰富的细节，因此基于互相关\(cross-correlation\)理论的匹配是比其他形状重建更有效的方法，即使如此，从实验中我们知道，使用互相关\(cross-correlation\) 还是不够的。甚至一些简单的case，仍然需要一些约束来减少错误匹配\(error-matching\)。大部分的约束都是基于图像的相关性的，或者，换句话说， 事实上图像的细节通常情况下是逐渐的变化的。这样，由粗到细的搜索能够有效的减少将要搜索的点，同时提高匹配的精确度。
 
-本论文中提到的匹配算法除了应用在形状重建之外，还可用于测量面内变形\(in-plane deformation\)的应变\(strain\)。  在面内变形的例子中，如果知道两个不同的角度， 那么3D位移\(3D displacement\)和应变场\(strain field\)可以被三角测量理论计算出来。  这样，匹配算法在微观力学的实验中就可以有很多有潜力的应用。 
+本论文中提到的匹配算法除了应用在形状重建之外，还可用于测量面内变形\(in-plane deformation\)的应变\(strain\)。  在面内变形的例子中，如果知道两个不同的角度， 那么3D位移\(3D displacement\)和应变场\(strain field\)可以被三角测量理论计算出来。  这样，匹配算法在微观力学的实验中就可以有很多有潜力的应用。
 
 从实验结果可以看出本算法是鲁棒的。在互相关\(cross-correlation\)匹配中， 如果一个随机的匹配错误发生了，那么在匹配点之后通常会产生一个匹配错误。而在我们的算法中，会通过一些约束，用来避免大部分匹配错误。此外，本算法并没有匹配所有像素点，而是仅仅匹配"interesting points"，这样可以减少大量的计算时间。 与此同时，结果也会更加精确，这是因为 "interesting points"总是带有明显的个体特征 ，这样也不容易在这些点上出现错误的匹配。
 
@@ -100,5 +100,29 @@ $$σ_f$$是第一张图像的图片片断中灰度值的标准差。$$σ_g(m,n)$
 
 我在这里向教授 David, M.Barnett和教授 Huajian Gao真诚的表达感谢， 感谢他们项目上的鼓励和支持。 感谢 Stefan Scherer 提供电子扫描显微镜下表面断裂的双目图像。
 
+# 6.引用
 
+1. Russ, John C. Computer-assisted Microscopy; the Measurement and Analysis of Images, Chap 11, Plenum Press, New York, 1990
+
+2.Vishvjit S. Naiwa, A Guided Tour ofComputer Vision, Chap 11, Addison-Wesley, Reading, Mass., 1993
+
+3.Takeo Kanade, "A stereo matching algorithm with an adaptive window: theory and experiment", Proc. of the 1991 IEEE International Conference on Robotics and Automation
+
+4. Ju-Hyeon Lee, "Metrology of microelecironic devices by stereo SEM", J. of Computer-Assisted Microscopy, Vol. 1 No. 1, 1989
+
+5. K. A. Thompson, "Surface characterization by use of automated stereo analysis and fractals", Microbeam Analysis 1987, San Francisco Press
+
+6. H. P. Moravec, "Towards automatic visual obstacle avoidance", Proc. 5th IJCAI, August 1977, pp. 584
+
+7. J. Barba, "The use of local entropy measures in edge detection for cytological image analysis", J. of Microscopy, 1988
+
+8. B. Julesz, "Binocular Depth Perception of Computer-Generated Pattern", BEll system Technical Journal, Vol. 39, No. 5 \(September\), pp. 1125-1161, 1960
+
+9. L. Matthies, etc. "Kalman Filter-Based Algorithm Estimating Depth from Image Sequences", International Journal of Computer Vision, Vol.3, pp. 209-238, 1989
+
+10. K. A. Stevens, "The Information Content of Texture Gradients, Biological Cybernetics", Vol. 42, pp. 95-105, 1981
+
+11. K. Ikeuchi, etc. "Numerical Shape from Shading and Occluding Boundaries, Artificial Intelligence", Vol. 17, pp. 141-184, 1981
+
+12. J. J. Koenderink, and A. J. van Doom, "Photometric Invariants Related to Solid Shape", Optical Acta, VoL 27, No. 7, pp. 981-996, 1980
 
